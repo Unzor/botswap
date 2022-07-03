@@ -1,4 +1,4 @@
-# nodebots-interchange
+#  Botswap
 
 ![](https://img.shields.io/npm/v/nodebots-interchange.svg)
 [![Coverage Status](https://coveralls.io/repos/github/nodebots/nodebots-interchange/badge.svg?branch=master)](https://coveralls.io/github/nodebots/nodebots-interchange?branch=master)
@@ -7,6 +7,8 @@
 ![](https://img.shields.io/badge/status-Ready-green.svg)
 [![Join the chat at https://gitter.im/ajfisher/nodebots-interchange](https://img.shields.io/badge/Gitter-Join%20Chat-brightgreen.svg)](https://gitter.im/ajfisher/nodebots-interchange?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Greenkeeper badge](https://badges.greenkeeper.io/nodebots/nodebots-interchange.svg)](https://greenkeeper.io/)
+
+A fixed version of nodebots-interchange for node v18. 
 
 Provides a mechanism to use custom backpacks and firmatas in your nodebots easily
 and without needing to use arduino or compile firmwares and all their dependencies.
@@ -35,32 +37,14 @@ backpack firmware selection and installation easy.
 
 ## Installation
 
-It is recommended to install nodebots-interchange locally so different versions
-can coexist as part of projects. If you do this, make sure the node modules
-.bin directory is on your path, like this:
+There are two ways to install Botswap.
+- 1: install through NPM
+```
+npm install -g botswap
+```
+- 2: install through releases
 
-```
-export PATH=./node_modules/.bin:$PATH
-```
-
-After that just install locally using npm
-
-```
-npm install nodebots-interchange
-```
-
-Or alternatively
-
-```
-git clone https://github.com/johnny-five-io/nodebots-interchange.git
-npm install
-```
-
-If you'd prefer to have interchange available to all users globally then do this:
-
-```
-npm install -g nodebots-interchange
-```
+[https://github.com/Unzor/botswap/releases/download/v1.0.0/botswap.zip](https://github.com/Unzor/botswap/releases/download/v1.0.0/botswap.zip)
 
 Once installed you will have access to the `interchange` application which will allow
 you to flash your board with a firmware of choice as described in the usage
