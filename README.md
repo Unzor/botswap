@@ -1,6 +1,6 @@
 #  Botswap
 
-![](https://img.shields.io/npm/v/nodebots-interchange.svg)
+![](https://img.shields.io/npm/v/botswap.svg)
 [![Coverage Status](https://coveralls.io/repos/github/nodebots/nodebots-interchange/badge.svg?branch=master)](https://coveralls.io/github/nodebots/nodebots-interchange?branch=master)
 ![](https://img.shields.io/github/issues/nodebots/nodebots-interchange.svg)
 ![](https://img.shields.io/david/nodebots/nodebots-interchange.svg)
